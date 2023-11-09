@@ -8,7 +8,7 @@ import Input from "./Input";
 const Chat = () => {
   return (
     <div className="flex-22 flex flex-col">
-      <div className="h-14 bg-[#313131] flex items-center justify-between p-3 text-[#aaaaaa]">
+      <div className="h-14 bg-[#313131] flex items-center justify-between p-4 text-[#aaaaaa]">
         <span>Jane</span>
         <div className="flex gap-3">
           <img className="h-6 cursor-pointer" src={Cam} alt="" />

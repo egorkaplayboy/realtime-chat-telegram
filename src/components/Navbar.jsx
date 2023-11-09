@@ -1,4 +1,6 @@
-import React from 'react'
+import { signOut } from "firebase/auth";
+import React from "react";
+import { auth } from "../firebase";
 
 const Navbar = () => {
   return (
@@ -11,12 +13,15 @@ const Navbar = () => {
           alt=""
         />
         <span>Lily</span>
-        <button className="py-1 px-3 text-xs rounded-xl bg-[#8774e1] hover:opacity-90 transition-opacity">
+        <button
+          onClick={() => signOut(auth)}
+          className="py-1 px-3 text-xs rounded-xl bg-[#8774e1] hover:opacity-90 transition-opacity"
+        >
           Logout
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

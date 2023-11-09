@@ -10,7 +10,7 @@
 }
 
 .messages-container::-webkit-scrollbar {
-  width: 4px;
+  width: 3px;
 }
 
 .messages-container::-webkit-scrollbar-track {
