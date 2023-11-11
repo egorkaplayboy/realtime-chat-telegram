@@ -8,7 +8,7 @@ const Navbar = () => {
   const defaultAvatar = "http://auxbonsjours.com/images/image_notyetavailable.jpg"
   return (
     <div className="flex items-center h-14 bg-[#313131] justify-between p-3">
-      <span className="font-bold text-[#ddddf7]">Telegram copy</span>
+      <span className="font-bold text-[#ddddf7] hidden lg:block">Telegram copy</span>
       <div className="flex gap-3">
         <img
           className="bg-[#ddddf7] h-6 w-6 rounded-full object-cover"

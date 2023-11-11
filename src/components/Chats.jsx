@@ -34,7 +34,7 @@ const Chats = () => {
           <div
             key={chat[0]}
             className="p-3 flex items-center gap-3 cursor-pointer hover:bg-[#313131] rounded-xl m-2"
-            onClick={() => handleSelect(chat[1].userInfo)}
+            onClick={() => handleSelect(chat[1].userInfo) }
           >
             <img
               className="w-14 h-14 rounded-full object-cover"
